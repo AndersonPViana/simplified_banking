@@ -1,5 +1,6 @@
 package com.simplifiedBanking.domain.user;
 
+import com.simplifiedBanking.dtos.UserDTO;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -26,4 +27,14 @@ public class User {
     private BigDecimal balance;
     @Enumerated(EnumType.STRING)
     private UserType userType;
+
+    public User(UserDTO userDTO) {
+        this.firstName = userDTO.firstName();
+        this.lastName = userDTO.lastName();
+        this.document = userDTO.document();
+        this.email = userDTO.email();
+        this.password = userDTO.password();
+        this.balance = userDTO.balance();
+        this.userType = userDTO.userType();
+    }
 }
