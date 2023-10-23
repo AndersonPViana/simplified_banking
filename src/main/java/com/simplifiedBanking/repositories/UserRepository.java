@@ -1,4 +1,4 @@
-package com.simplifiedBanking.repository;
+package com.simplifiedBanking.repositories;
 
 import com.simplifiedBanking.domain.user.User;
 import org.springframework.data.jpa.repository.JpaRepository;
