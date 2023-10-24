@@ -1,4 +1,4 @@
-package com.simplifiedBanking.domain.controllers;
+package com.simplifiedBanking.controllers;
 
 import com.simplifiedBanking.domain.user.User;
 import com.simplifiedBanking.dtos.UserDTO;
