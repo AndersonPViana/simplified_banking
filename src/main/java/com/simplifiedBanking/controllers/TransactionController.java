@@ -16,7 +16,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class TransactionController {
     @Autowired
     private TransactionService service;
-
     @PostMapping
     public ResponseEntity<Transaction> createTransaction(@RequestBody TransactionDTO transactionDTO) throws Exception {
         Transaction newTransaction = this.service.createTransaction(transactionDTO);
