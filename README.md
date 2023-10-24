@@ -1,5 +1,5 @@
 # Simplifie Banking
-Desafio de projeto BackEnd
+Este projeto é um desafio de uma API construída usando Java, Java Spring, H2 como banco de dados.
 
 ## Tecnologias
 - **Java 17**: Utilizaremos a versão LTS mais recente do Java para tirar vantagem das últimas inovações que essa linguagem robusta e amplamente utilizada oferece;
